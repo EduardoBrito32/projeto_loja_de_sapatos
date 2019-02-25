@@ -1,0 +1,151 @@
+*{  /*Zerando as arestas*/
+    margin: 0;
+    padding: 0;
+
+    /*border: 1px solid red;*/
+}
+
+body{
+    background: #eaddf3;
+}
+
+/*Configurações de cabeçalho*/
+#cabecalho{
+    background: #280f36;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+/*Definições do logo*/
+#logo{
+    text-align: center;
+    padding-bottom: 0px;
+}
+#shoes{
+    font-family: 'Graduate', cursive;
+    color: #fadfff;
+    font-size: 5em;
+}
+#spalla{
+    font-family: 'Poiret One', cursive;
+    color: #ffc1a0;
+    font-size: 5em;
+}
+
+#assinatura{
+    font-family: 'Cinzel', serif;;
+    color: #fadfff;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 10px;
+    left: 153px;
+
+}
+
+/*Configurações do Menu*/
+#menu{
+    margin: 0px auto;
+    text-align: center;
+}
+
+#itens_menu{
+    margin: 0px 0px;
+}
+
+/*Configurações dos links do menu*/
+nav a{
+    display: block;
+    font-size: 1em;
+    line-height: 40px;
+    text-decoration: none;
+    color: #ffc1a0;
+    width: 170px;
+}
+
+nav a:hover{
+    background: #ffc1a0;
+    color: #280f36;
+}
+
+nav ul ul li a{
+    color: #280f36;
+    width: 170px;
+}
+nav ul ul li a:hover{
+    background: #280f36;
+    color: #ffc1a0;
+}
+
+/*Configurações de posições e cores dos itens do menu*/
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    list-style: none;
+}
+
+nav ul li {
+    display:inline-block;
+    color: #ffc1a0;
+}
+
+
+/*Escondendo submenus em default*/
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 60px; /*largura da main nav*/
+    width: 170px;
+}
+
+/* Mostrando os submenus em Hover */
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+/*Configurações de posição e cores dos submenus*/
+/* Primeira Camada de submenu */
+nav ul ul li {
+    width: 170px;
+    float:none;
+    display:list-item;
+    position: relative;
+    background: #ffc1a0;
+    left: -85px;
+    bottom: 20px;
+}
+
+/*Segunda Camada de submenu*/
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+/*Configurações do Corpo*/
+#corpo{
+    height: 500px;
+    width: 900px;
+    background: #ffffff;
+    margin: 0px auto;
+}
+
+
+/*Configurações do Rodapé*/
+#rodape{
+    height: 40px;
+    width: 100%;
+    background: #280f36;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+#direitos{
+    font-family: 'Cinzel', serif;
+    color: #fadfff;
+    font-size: 0.8em;
+
+}
+
